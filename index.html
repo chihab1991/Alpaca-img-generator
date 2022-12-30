@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Alpaca Image Generator</title>
+		<link rel="stylesheet" href="../css/style.css" />
+		<script
+			src="https://kit.fontawesome.com/723bcbfcd4.js"
+			crossorigin="anonymous"
+		></script>
+		<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.5/dist/html2canvas.min.js"></script>
+		<script src="../js/main.js" defer></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;800&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div class="container">
+			<h1 class="title">Alpaca Generator</h1>
+			<div class="alpaca-flex">
+				<div class="alpaca-img">
+					<div class="img-container">
+						<img
+							src="./alpaca-generator-assets/alpaca/backgrounds/darkblue70.png"
+							alt="background color"
+							class="bg-color"
+						/>
+						<img
+							src="./alpaca-generator-assets/alpaca/hair/default.png"
+							alt=""
+							class="hair"
+						/>
+						<img
+							src="./alpaca-generator-assets/alpaca/ears/default.png"
+							alt=""
+							class="ears"
+						/>
+						<img
+							src="./alpaca-generator-assets/alpaca/eyes/default.png"
+							alt=""
+							class="eyes"
+						/>
+						<img
+							src="./alpaca-generator-assets/alpaca/nose.png"
+							alt=""
+							class="nose"
+						/>
+						<img
+							src="./alpaca-generator-assets/alpaca/mouth/default.png"
+							alt=""
+							class="mouth"
+						/>
+						<img
+							src="./alpaca-generator-assets/alpaca/neck/default.png"
+							alt=""
+							class="neck"
+						/>
+						<img
+							src="./alpaca-generator-assets/alpaca/leg/default.png"
+							alt=""
+							class="leg"
+						/>
+						<img
+							src="./alpaca-generator-assets/alpaca/accessories/headphone.png"
+							alt=""
+							class="accessories"
+						/>
+					</div>
+					<div class="act-btns">
+						<button class="random-btn" onclick="randomImg()">
+							<i class="fa-solid fa-shuffle"></i> Random
+						</button>
+						<button class="download-btn" onclick="downloadImg()">
+							<i class="fa-solid fa-download"></i> Download
+						</button>
+					</div>
+				</div>
+
+				<div class="alpaca-btns">
+					<div class="alpaca-accessories">
+						<h3>Accessorize the alpaca's</h3>
+						<button class="btn hair-btn active">Hair</button>
+						<button class="btn ears-btn">Ears</button>
+						<button class="btn eyes-btn">Eyes</button>
+						<button class="btn mouth-btn">Mouth</button>
+						<button class="btn neck-btn">Neck</button>
+						<button class="btn leg-btn">Leg</button>
+						<button class="btn accessories-btn">Accessories</button>
+						<button class="btn bg-btn">Background</button>
+					</div>
+					<div class="alpaca-style">
+						<h3>Style</h3>
+						<div class="alpaca-style-btns"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
